@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSTITUTION OF INDIA</title>
+    <link rel="shortcut icon" href="logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <!-- Left-side navigation bar -->
+    <div class="left-nav">
+        <a href="#" onclick="showSection('introduction')" >Introduction</a>
+        <a href="#" onclick="showSection('Preamble')">Preamble</a>
+        <a href="#" onclick="showSection('chapters')" class="dropdown-btn">Parts <span class="arrow">&#9660;</span></a>
+        <div class="dropdown-container">
+            <a href="#" onclick="showSection('chapter3')" class="nested-dropdown-btn">Part 1 <span class="nested-arrow">&#9660;</span></a>
+            <div class="nested-dropdown-container">
+                <a href="#" onclick="showSection('articles')">Article 1</a>
+                <a href="#" onclick="showSection('articles')">Article 2</a>
+                <a href="#" onclick="showSection('articles')">Article 3</a>
+                <a href="#" onclick="showSection('articles')">Article 4</a>
+                <a href="#" onclick="showSection('articles')">Article 5</a>
+            </div>
+            <a href="#" onclick="showSection('chapter1')">Part 2</a>
+            <a href="#" onclick="showSection('chapter1')">Part 3 </a>
+            <a href="#" onclick="showSection('chapter1')">Part 4</a>
+            <a href="#" onclick="showSection('chapter1')">Part 5</a>
+        </div>       
+        <a href="#" onclick="showSection('contact')">Contact Us</a>
+    </div>
+
+    <!-- Top navigation bar -->
+    <div>
+        <nav>
+            <a href="#"><img src="logo1.jpg" alt="Logo" style="height: 30px; vertical-align: middle;"></a>
+            <div class="links">
+                <ul>
+                    <li><a href="main.html" onclick="showSection('home')">HOME</a></li>
+                    <li><a href="#faqs" onclick="showSection('chapter1')">FAQs</a></li>
+                    <!-- <li><a href="#keywords" onclick="showSection('chapter1')">KEYWORDS</a></li> -->
+                    <li><a href="#help" onclick="showSection('chapter1')">HELP</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main content sections -->
+    <div id="main">
+        <section id="introduction" class="main-content">
+            <div class="header">
+                <h1 id="h">CONSTITUTION & CITIZEN</h1>
+            </div>
+            <p>Welcome to the Constitution & Citizen portal. Here, you can explore the chapters, articles, and amendments of the Constitution of India.</p>
+        </section>
+
+        <section id="chapters" class="main-content">
+            <h2>Chapters</h2>
+            <p>Explore the various chapters of the Constitution, detailing the framework of governance and rights.</p>
+        </section>
+
+        <section id="chapter1" class="main-content">
+            <h2>404</h2>
+            <p>oops! The page you are looking for does not exist.</p>
+        </section>
+
+        <section id="articles" class="main-content">
+            <h2>Articles</h2>
+            <p>Delve into the articles of the Constitution, which outline the laws and principles of the nation.</p>
+        </section>
+
+        <section id="Preamble" class="main-content">
+            <h2>Preamble</h2>
+            <p>Learn about the amendments made to the Constitution over time to adapt to changing needs.</p>
+        </section>
+
+        <section id="contact" class="main-content">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+        </section>
+    </div>
+</body>
+</html>
