@@ -122,12 +122,12 @@ nav img {
     opacity: 0;
     position: absolute;
     left: 100%; /* Position to the right of the link */
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
     background-color: #fff;
     color: #080808;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     white-space: nowrap;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
@@ -177,8 +177,9 @@ nav img {
     font-size: 60px;
     text-align: center;
 } 
-#articles{
+#article1{
     font-size: xx-large;
+    min-height: 680px;
 }
 #Preamble{
     font-size: xx-large;
