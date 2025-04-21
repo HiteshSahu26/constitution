@@ -187,6 +187,17 @@ nav img {
 .gap{
    padding-left: 40px; 
 }
+#article1 footer{
+    position: absolute;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    /* padding: 10px 10px 10px 10px; */
+    padding-right: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 25px;
+    color: #333;
+}
 #Preamble{
     font-size: xx-large;
 }
