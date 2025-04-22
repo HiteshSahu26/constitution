@@ -24,6 +24,9 @@ html{
     text-align: center;
     /* text-decoration: underline; */
 }
+h2{
+    text-align: center;
+}
 /* Top navigation bar styling */
 nav {
     background-color: rgba(255, 255, 255, 0.8);
@@ -189,17 +192,20 @@ nav img {
 }
 #article1 footer{
     position: absolute;
-    width: 100%;
+    width: 80%;
+    bottom: 0%;
     background-color: #f1f1f1;
     text-align: center;
-    /* padding: 10px 10px 10px 10px; */
-    padding-right: 10px;
     border-top: 1px solid #ccc;
     font-size: 25px;
     color: #333;
 }
 #Preamble{
     font-size: xx-large;
+    min-height: 680px;
+}
+#preamble h2{
+    text-align: center;
 }
 #contact{
     font-size: xx-large;

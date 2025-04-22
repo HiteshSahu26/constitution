@@ -11,7 +11,7 @@ function showSection(sectionId) {
     if (selectedSection) {
         selectedSection.style.display = 'block';
     }
-}
+} 
 
 // Show the introduction section by default on page load
 window.onload = () => {
