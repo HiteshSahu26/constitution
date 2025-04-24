@@ -53,9 +53,17 @@ const nestedContainers = document.querySelectorAll('.nested-dropdown-container')
 
 nestedBtns.forEach((btn, index) => {
   btn.addEventListener('click', () => {
+    // Close all nested dropdowns first
+    nestedContainers.forEach((container, i) => {
+      if (i !== index) {
+        container.style.display = 'none';
+        nestedArrows[i].classList.remove('rotate');
+      }
+    });
+
+    // Toggle the clicked dropdown
     const container = nestedContainers[index];
     const arrow = nestedArrows[index];
-
     const isVisible = container.style.display === 'block';
 
     if (isVisible) {

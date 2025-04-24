@@ -26,6 +26,14 @@ html{
 }
 h2{
     text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+h3{
+    font-size: x-large
+}
+p{
+    padding-left: 10px;
 }
 /* Top navigation bar styling */
 nav {
@@ -102,15 +110,30 @@ nav img {
     position: fixed;
     top: 60px; 
     left: 0;
-    height: calc(100% - 60px); 
+    height: calc(100% - 60px); /* Full height minus the top offset */
     padding-top: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); 
     border-right: 1px solid #ccc;
     border-radius: 20px 20px 20px 20px; 
-    /* margin-top: 30px;
-    margin-left: 5px; */
     margin: 30px 0 20px 5px;
-    margin-right: 80px; 
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    scrollbar-width: thin; /* For modern browsers */
+    scrollbar-color: #ccc #f1f1f1; /* Custom scrollbar colors */
+}
+
+/* Optional: Style the scrollbar for WebKit browsers */
+.left-nav::-webkit-scrollbar {
+    width: 8px;
+}
+
+.left-nav::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.left-nav::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
 }
 
 .left-nav a {
