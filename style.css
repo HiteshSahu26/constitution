@@ -152,8 +152,8 @@ nav img {
     left: 100%; /* Position the hover text to the right of the link */
     top: 50%; /* Align vertically with the link */
     transform: translateY(-50%); /* Center vertically */
-    background-color: #000; /* Background color for hover text */
-    color: #fff; /* Text color */
+    background-color: #ddd; /* Background color for hover text */
+    color: #080808; /* Text color */
     padding: 5px 10px;
     border-radius: 5px;
     white-space: nowrap;
@@ -209,11 +209,34 @@ nav img {
 #article1{
     font-size: xx-large;
     min-height: 680px;
+    padding-left: 5%;
+}
+#article2{
+    font-size: xx-large;
+    min-height: 680px;
+    padding-left: 5%;
+}
+#article3{
+    font-size: xx-large;
+    min-height: 680px;
+    max-height: auto;
+    padding-left: 5%;
 }
 .gap{
-   padding-left: 40px; 
+   padding-left: 50px; 
 }
-#article1 footer{
+.gap1{
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.gap2{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.gap3{
+    padding-bottom: 2%;
+}
+footer{
     position: absolute;
     width: 80%;
     bottom: 0%;
@@ -226,12 +249,15 @@ nav img {
 #Preamble{
     font-size: xx-large;
     min-height: 680px;
+    padding-right: 4%;
+    padding-left: 5%;
 }
 #preamble h2{
     text-align: center;
 }
 #contact{
     font-size: xx-large;
+    min-height: 680px;
 }
 .sub-menu {
     margin-left: 20px; 
@@ -282,7 +308,7 @@ nav img {
     }
     .links{
         position: absolute;
-        background: #f44336;
+        background: #eeeeee;
         height: 100vh;
         width: 200px;
         top: 0;
