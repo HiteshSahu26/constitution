@@ -15,7 +15,7 @@ function showSection(sectionId) {
 
 // Show the introduction section by default on page load
 window.onload = () => {
-    showSection('home');
+    showSection('introduction');
 
     // Close all dropdowns on page load
     const containers = document.querySelectorAll('.dropdown-container');

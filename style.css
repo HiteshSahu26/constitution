@@ -17,6 +17,10 @@ html{
     background-position: center;
     position: relative;
 }
+.welcome{
+    text-align: center;
+    padding-top: 2%;
+}
 #h{
     color: #000000;
     text-decoration: wavy;
