@@ -71,7 +71,12 @@ nestedBtns.forEach((btn, index) => {
       arrow.classList.remove('rotate');
     } else {
       container.style.display = 'block';
-      arrow.classList.add('rotate');
+      arrow.classList.add('rotate'); 
     }
   });
 });
+// Auto scroll of left-nav when it reaches to the bottom
+// function scrollToBottom() {
+//     const leftNav = document.getElementById('.nested-dropdown-btn');
+//     leftNav.scrollTop = leftNav.scrollHeight;
+// }

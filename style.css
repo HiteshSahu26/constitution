@@ -234,6 +234,11 @@ nav img {
     min-height: 680px;
     padding-left: 5%;
 }
+#article4{
+    font-size: xx-large;
+    min-height: 680px;
+    padding-left: 5%;
+}
 .gap{
    padding-left: 50px; 
 }
@@ -249,6 +254,14 @@ nav img {
     padding-bottom: 2%;
 }
 .I1{
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 10%; /* Round all corners equally */
+    width: auto; /* Ensure the image scales properly */
+    height: auto; /* Maintain aspect ratio */
+    overflow: hidden; /* Ensure the rounded corners are applied */
+}
+.I2{
     display: block;
     margin: 0 auto; /* Center the image horizontally */
     border-radius: 10%; /* Round all corners equally */
