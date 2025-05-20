@@ -194,6 +194,8 @@ nav img {
 }
 #chapters{
     font-size: xx-large;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 #chapter1{
     min-height: 680px;
@@ -289,6 +291,11 @@ footer {
 #contact{
     font-size: xx-large;
     min-height: 680px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.con{
+    text-align: center;
 }
 .sub-menu {
     margin-left: 20px; 
